@@ -25,9 +25,7 @@ dotnet run
 
 Main Endpoints:
 - GET /api/schools -> list schools
-- GET /api/schools/{schoolId}/monthlyfees -> list monthly fees of a school
-- GET /api/monthlyfees -> list all monthly fees
-- GET /api/monthlyfees/{monthlyFeeId}/installments -> list installments of a monthly fee
+- GET /api/schools/{schoolId}/invoices -> list invoices of a school
 - GET /api/installments/student/{studentId} -> list installments of a student
 - PUT /api/installments/{installmentId}/pay -> mark installment as paid
 
